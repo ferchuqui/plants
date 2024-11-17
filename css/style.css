@@ -75,3 +75,26 @@ button.btn.btn-nav{
     color: white;
     border-radius: 5px;
 }
+
+/* banner */
+
+.banner-sec {
+    position: relative;
+}
+.header-main{
+    position: absolute;
+    top: 25%;
+    width: 45%;
+}
+.header-main h4{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.header-main h1{
+    font-size: 66px;
+    line-height: normal;
+}
+
+.header-main h1 span{
+    color: var(--primary)
+}
