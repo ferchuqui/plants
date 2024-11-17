@@ -54,3 +54,24 @@ img{
 container {
     max-width: 1240px
 }
+
+/* Estilo Nav Bar */
+a.navbar-brand img{
+    width: 200px;
+    height: auto;
+}
+.navbar .navbar-nav .nav-link, .nav-link .dropdown-toggle{
+    color: #000;
+    padding: 5px 20px !important;
+    font-size: 16px;
+}
+button.btn.btn-nav{
+    background: var(--primary);
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link:hover, .nav-link .dropdown-toggle:hover {
+    background-color: var(--primary);
+    color: white;
+    border-radius: 5px;
+}
