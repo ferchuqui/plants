@@ -96,5 +96,45 @@ button.btn.btn-nav{
 }
 
 .header-main h1 span{
-    color: var(--primary)
+    color: var(--primary);
+}
+
+/* About */
+.about-sec {
+    background: url(/img/bg11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.ab-img img {
+    width: 90%;
+}
+
+.title h6{
+    font-size: 36px;
+    max-width: 10px 0;
+    text-transform: capitalize;
+}
+.title h2 span{
+    color: var(--primary);
+}
+.icon-box {
+    background: white;
+    padding: 25px;
+}
+.icon-box img{
+    margin-bottom: 20px;
+    width: 60px;
+    height: auto;
+}
+.icon-box h6{
+    color: #000;
+    font-size: 20px;
+}
+.icon-box:hover{
+    background: var(--primary);
+}
+.icon-box:hover h6, .icon-box:hover p {
+    color: white;
 }
