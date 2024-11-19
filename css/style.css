@@ -138,3 +138,67 @@ button.btn.btn-nav{
 .icon-box:hover h6, .icon-box:hover p {
     color: white;
 }
+
+/* Productos */
+
+.product-box{
+    position: relative;
+    overflow: hidden;
+    transition: .4s ease;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+}
+
+.pr-icon ul{
+    position: absolute;
+    top: 0;
+    right: -40px;
+    transition: .4s ease;
+    transform: translateX(40px);
+}
+
+.pr-icon ul li a{
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-content: center;
+    background-color: var(--primary);
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.pr-icon ul li a:hover{
+    background-color: #000;
+}
+
+.product-box:hover .pr-icon ul{
+    right: 10px;
+    transform: inherit;
+}
+
+.product-box h5 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.product-box:hover{
+    box-shadow: rgba(149,157,165, 0.2) 0px 8px 24px;
+}
+
+.pr-txt {
+    text-align: center;
+}
+
+.pr-txt span{
+    font-weight: 600;
+}
+
+.pr-img {
+    overflow: hidden;
+}
+
+.product-box:hover img{
+    transform: scale(1.1);
+}
