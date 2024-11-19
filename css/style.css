@@ -202,3 +202,21 @@ button.btn.btn-nav{
 .product-box:hover img{
     transform: scale(1.1);
 }
+
+.bg-section {
+    padding: 60px 0;
+    background: url(/img/bg-testi.png);
+    width: 100%;
+    background-size: cover;
+}
+
+.bg-text h2 {
+    color: white;
+    font-size: 40px;
+}
+.bg-text p {
+    color: white;
+}
+.bg-text h2 span {
+    color: var(--primary)
+}
