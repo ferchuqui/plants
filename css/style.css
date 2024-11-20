@@ -260,3 +260,39 @@ button.btn.btn-nav{
 .testimonial-box:hover p{
     color: white;
 }
+
+/* Blog */
+
+.blog-sec{
+    background: #f8f8f8;
+}
+.blog-card{
+    box-shadow: rgba(0, 0 , 0, 0.1) 0px 4px 12px;
+    border-bottom: 2px solid var(--primary)
+}
+.blog-card:hover{
+    box-shadow: (100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-bottom: 2px solid var(--secondary)
+}
+
+.card-img{
+    overflow: hidden;
+}
+.card-img img{
+    transition: .4s ease;
+}
+
+.blog-card:hover img {
+    transform: scale(1.2);
+}
+
+.card-text{
+    padding: 25px;
+}
+
+.card-text h5 {
+    font-size: 24px;
+}
+.blog-card:hover .card-text h5{
+    color: var(--primary)
+}
