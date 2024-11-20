@@ -255,7 +255,7 @@ button.btn.btn-nav{
 }
 
 .testimonial-box:hover::before{
-    border-top: 15px solid var(secondary);
+    border-top: 15px solid var(--secondary);
 }
 .testimonial-box:hover p{
     color: white;
